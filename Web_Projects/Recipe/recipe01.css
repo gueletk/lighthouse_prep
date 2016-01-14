@@ -1,0 +1,30 @@
+#banner{
+	display:block;
+	margin:auto;
+	clear:both;
+	width:700px;
+}
+
+#banner.img{
+	display:block;
+	margin:auto;
+
+}
+
+section{
+	display: block;
+	margin:auto;
+}
+
+h1{
+	display:block;
+	margin:auto;
+}
+
+body{
+	display: block;
+	margin:auto;
+}
+
+
+

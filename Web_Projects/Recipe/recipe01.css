@@ -1,30 +1,49 @@
-#banner{
+img{
 	display:block;
 	margin:auto;
 	clear:both;
 	width:700px;
+	border-radius: 25px;
+	box-shadow: 5px 5px 5px #888888;
 }
 
-#banner.img{
-	display:block;
-	margin:auto;
-
+.crossed-out{
+ text-decoration: line-through;  
 }
 
+li {
+margin-left:-40px;
+}
+
+button{
+background:    #3d85c6;
+background:    -webkit-linear-gradient(#3d85c6, #073763);
+background:    linear-gradient(#3d85c6, #073763);
+border-radius: 5px;
+color:         #fff;
+display:       inline-block;
+padding:       8px 20px;
+font:          normal 700 24px/1 "Calibri", sans-serif;
+text-align:    center;
+text-shadow:   1px 1px 0 #000;
+}
 section{
 	display: block;
 	margin:auto;
 }
 
-h1{
-	display:block;
-	margin:auto;
+
+h1, h3{
+	text-align:-webkit-center;
 }
 
 body{
 	display: block;
 	margin:auto;
 }
-
+#main{
+	max-width: 750px;
+	margin: auto;
+}
 
 

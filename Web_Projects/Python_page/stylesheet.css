@@ -1,0 +1,9 @@
+
+body{
+	counter-reset: h1counter;
+}
+
+.lesson h1:before {
+        content: counter(h1counter) ".\0000a0\0000a0";
+        counter-increment: h1counter;
+    }

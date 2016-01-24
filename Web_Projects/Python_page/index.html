@@ -6,65 +6,90 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<script src="script.js"></script>
-		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 		<title>Python</title>
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
 		<!-- jQuery library -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-
 		<!-- Latest compiled JavaScript -->
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	</head>
 
+<body>
 
-	<div class="container-fluid">
-	<div class="row">
+	<nav class="navbar navbar-default navbar-fixed-top">
+  		<div class="container header-container">
+  		<img class="img-responsive header-logo" SRC="python-logo-small.png">
+    		<h1> INTRODUCTORY PYTHON</h1>
+  		</div>
+	</nav>
 
-		<div class="page-header well col-md-10 center-block">
-			<h1>Introductory Python</h1>
+	<div class="container-fluid main">
+		<div class="row">
+			
+			<div class = "col-md-7 panel-group">
+				
+				<section class="panel panel-default lesson">
+					<header class="panel-heading">
+						<h1>Introduction</h1>
+					</header>
+					<div class="panel-body">
+						<ul class="list-group">
+							<a href=material/00/lesson.py class="list-group-item">Code demo</a>
+						</ul>
+						<h2><small>Homework</small></h2>
+						
+						<button class="btn-info" data-toggle="collapse" data-target="#demo">Instructions <span class="glyphicon glyphicon-chevron-down"></span></button>
+						<div id="demo" class="collapse">
+							<p>If you want feedback on your code, please email it to me as a zip file named: yourname_week0.zip</p>
+							<p>Please name your files: yourname_w0_q##.py with ## being 1, or 1a/1b/1c for questions involving multiple files</p>
+							<ol>
+								<li value="0">Add #comments to cars.py explaining what the code is doing.</li>
+								<li>Modify avg2.py with a loop so that it executes 3 times before quitting. ie, it averages two scores together three times in a row.</li>
+								<li>Modify the avg2.py program to find the average of three exam scores.</li>
+								<li>Write a program to convert kilometers to miles. One kilometer is approximately 0.62 miles. Make sure your program prints an introduction describing what it does.</li>
+								<li>Modify futval.py so that the number of years is also an input. Make sure to change the final message to reflect the correct number of years.</li>
+								<li>
+									Suppose you have an investment plan where you invest a certain fixed amount every year. Modify futval.py to compute the total accumulation of your investment.
+
+									<p>The inputs to the program will be:</p>		
+									<ul>
+										<li>The amount to invest each year</li>
+										<li>The interest rate</li>
+										<li>The number of years for the investment.</li>
+									</ul>
+								</li>
+							</ol>	
+
+						</div>
+						<ul class="list-group">
+							<a href="material/00/cars.py" class="list-group-item">cars.py</a>
+							<a href="material/00/avg2.py" class="list-group-item">avg2.py</a>
+							<a href="material/00/futval.py" class="list-group-item">futval.py</a>
+						</ul>
+					</div>
+				</section>
+
+				<section class="panel panel-default">
+					<header class="panel-heading">
+						<h1><span class="glyphicon glyphicon-download"></span> Download PsychoPy</h1>
+					</header>
+					<div class="panel-body">
+						<ul class="list-group">
+							<a href="PsychoPy_win32.exe" class="list-group-item">PsychoPy for Windows</a>
+							<a href="PsychoPy_OSX.dmg" class="list-group-item">PsychoPy for OSX</a>
+						</ul>
+					</div>
+				</section>
+
+			</div>
+
+			<div class="col-md-5">
+				<img class="img-responsive" id="illustration" SRC="xpython.png">
+			</div>
 		</div>
 	</div>
-	<div class="row">
-		
-		<div class = "col-md-7 panel-group">
-		<section class="panel panel-default">
-			<header class="panel-heading">
-				<h1><span class="glyphicon glyphicon-download"></span> Download PsychoPy</h1>
-			</header>
-			<div class="panel-body">
-				<ul class="list-group">
-					<a href="PsychoPy_win32.exe" class="list-group-item">PsychoPy for Windows</a></li>
-					<a href="PsychoPy_OSX.dmg" class="list-group-item">PsychoPy for OSX</a></li>
-				</ul>
-			</div>
-		</section>
-
-		<section class="panel panel-default lesson">
-			<header class="panel-heading">
-				<h1>Introduction</h1>
-			</header>
-			<div class="panel-body">
-				<ul class="list-group">
-					<a href=material/00/lesson.py class="list-group-item">Code demo</a>
-				</ul>
-
-				<h2><small>Homework</small></h2>
-					<a href="material/00/asst.txt" class="list-group-item">Instructions</a>
-					<a href="material/00/cars.py" class="list-group-item">cars.py</a>
-					<a href="material/00/avg2.py" class="list-group-item">avg2.py</a>
-					<a href="material/00/futval.py" class="list-group-item">futval.py</a>
-				</ul>
-			</div>
-		</section>
-		</div>
-
-		<div class="col-md-5">
-			<img class="img-responsive" SRC="xpython.png">
-		</div>
-
-	</div>
-</div>
 </body>
 </html>

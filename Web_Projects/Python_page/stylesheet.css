@@ -1,3 +1,14 @@
+@media all and (min-width: 601px) {
+      h1{
+        font-size: 70px;
+      }
+    }
+@media all and (max-width: 600px) {
+      h1{
+        font-size: 40px;
+      }
+}
+
 #illustration{
 	border-style: solid;
 	border-width:1px;

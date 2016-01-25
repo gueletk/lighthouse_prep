@@ -43,7 +43,19 @@ button {
     padding: 8px 20px;
     font: 700 24px/1 titleFont, sans-serif;
     boder:none;
+    -webkit-transition: color 0.5s, border-color 0.5s ease-out;
+	-moz-transition: color 0.5s, border-color 0.5s ease-out;
+	-ms-transition: color 0.5s, border-color 0.5s ease-out;
+	-o-transition: color 0.5s, border-color 0.5s ease-out;
+	transition: color 0.5s, border-color 0.5s ease-out;
 }
+
+button:hover {
+    color: C6A9A9;
+    border-color:C6A9A9;
+}
+
+
 section{
 	display: block;
 	margin:auto;
